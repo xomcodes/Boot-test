@@ -47,3 +47,12 @@ background-color: #124265 ! important;
     filter: grayscale(0);
     transform: scale(1.15);
 }
+
+.testimoney-person{
+    text-align: center;
+}
+
+.testimoney-person img{
+    height: 100px;
+    width: 100px;
+}
