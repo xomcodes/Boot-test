@@ -48,11 +48,21 @@ background-color: #124265 ! important;
     transform: scale(1.15);
 }
 
-.testimoney-person{
+/* .testimoney-person{
     text-align: center;
-}
+} */
 
 .testimoney-person img{
     height: 100px;
     width: 100px;
+    border-radius: 50%;
 }
+
+/* .swiper-pagination{
+    margin-top: auto;
+} */
+
+.swiper {
+    width: 100%;
+    height: 300px;
+  }
