@@ -66,3 +66,22 @@ background-color: #124265 ! important;
     width: 100%;
     height: 300px;
   }
+
+  .icon-section{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  } 
+
+  .icon-section svg{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+  }
+
+  .icon-section i{
+    z-index: 10;
+  }
