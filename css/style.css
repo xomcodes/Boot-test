@@ -72,6 +72,7 @@ background-color: #124265 ! important;
     width: 100px;
     height: 100px;
     margin: 0 auto;
+    /* transition: all ease-in-out 0.3s; */
   } 
 
   .icon-section svg{
@@ -84,4 +85,24 @@ background-color: #124265 ! important;
 
   .icon-section i{
     z-index: 10;
+  }
+
+
+.service-card{
+    transition: all ease-in-out 0.3s;
+    padding: 70px 0px 80px 0px;
+}
+
+
+.service-card:hover{
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%)
+}
+
+
+  .service-card:hover .icon-blue path{
+    fill: #007aff
+  }
+
+  .service-card:hover i{
+    color:white
   }
