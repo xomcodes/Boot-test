@@ -114,3 +114,17 @@ background-color: #124265 ! important;
   .portfolio-tabs ul{
 list-style: none;
   }
+
+  .portfolio-link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .portfolio-link:hover{
+    text-decoration: none;
+    color: #007aff
+  }
+
+  .portfolio-text{
+    display: none;
+  }
